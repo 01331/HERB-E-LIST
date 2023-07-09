@@ -1,0 +1,7 @@
+{
+  "name": "herb-e-list",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
