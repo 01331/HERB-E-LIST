@@ -1,9 +1,7 @@
 {
   "name": "herb-e-list",
   "integrations": {
-    "capacitor": {
-      "enabled": false
-    },
+    "capacitor": {},
     "cordova": {}
   },
   "type": "angular-standalone"
