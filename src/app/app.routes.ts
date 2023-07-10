@@ -8,10 +8,15 @@ export const routes: Routes = [
   {
     path: '',
     redirectTo: 'home',
-    pathMatch: 'full',
+    pathMatch: 'prefix',
   },
   {
     path: 'login',
     loadComponent: () => import('./login/login.page').then( m => m.LoginPage)
   },
-];
+  {
+    path: 'signup',
+    loadComponent: () => import('./signup/signup.page').then( m => m.SignupPage)
+  },
+
+]

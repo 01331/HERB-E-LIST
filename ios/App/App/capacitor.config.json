@@ -1,1 +1,8 @@
-{}
+{
+	"appId": "herb.e.list",
+	"appName": "herb-e-list",
+	"webDir": "www",
+	"server": {
+		"androidScheme": "https"
+	}
+}
